@@ -1,5 +1,5 @@
 # 🚀 Project Name
-Data-Profiling
+Team - Data-Profiling
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -56,6 +56,8 @@ There was an issue accessing OpenAi API due to the API hits limit being exdeeded
 
 ## 👥 Team
 Girichandu Palakodeti
-Jagadeesh GanaparthiVenkatesh Bandi
+Jagadeesh Ganaparthi
+Balaji Buddana
+Venkatesh Bandi
 Praveen Lingampate
 
