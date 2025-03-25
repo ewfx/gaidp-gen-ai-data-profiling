@@ -55,9 +55,9 @@ There was an issue accessing OpenAi API due to the API hits limit being exdeeded
 
 
 ## 👥 Team
-Girichandu Palakodeti
-Jagadeesh Ganaparthi
-Balaji Buddana
-Venkatesh Bandi
+Girichandu Palakodeti, 
+Jagadeesh Ganaparthi, 
+Balaji Buddana, 
+Venkatesh Bandi, 
 Praveen Lingampate
 
