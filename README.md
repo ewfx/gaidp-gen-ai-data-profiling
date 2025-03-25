@@ -55,5 +55,7 @@ There was an issue accessing OpenAi API due to the API hits limit being exdeeded
 
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+Girichandu Palakodeti
+Jagadeesh GanaparthiVenkatesh Bandi
+Praveen Lingampate
+
