@@ -79,7 +79,7 @@ Valid records → Proceed to the final output.
 
 🛠️ **Architecture Diagram**
 The architecture of the solution is shown below:
-![image](https://github.com/user-attachments/assets/4892d27f-a093-4364-8fda-bba38d261ca3)
+
 
 
 
