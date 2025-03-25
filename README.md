@@ -1,5 +1,5 @@
 # 🚀 Project Name
-Data
+Data-Profiling
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
