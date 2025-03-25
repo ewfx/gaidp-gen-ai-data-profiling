@@ -1,0 +1,99 @@
+{
+    "CustomerID": {
+        "type": "string",
+        "constraints": [
+            "no_carriage_return",
+            "no_line_feed",
+            "no_comma",
+            "no_unprintable"
+        ]
+    },
+    "InternalObligorID": {
+        "type": "string",
+        "constraints": [
+            "no_carriage_return",
+            "no_line_feed",
+            "no_comma",
+            "no_unprintable"
+        ]
+    },
+    "OriginalInternalObligorID": {
+        "type": "string",
+        "constraints": [
+            "no_carriage_return",
+            "no_line_feed",
+            "no_comma",
+            "no_unprintable"
+        ]
+    },
+    "ObligorName": {
+        "type": "string",
+        "constraints": [
+            "no_carriage_return",
+            "no_line_feed",
+            "no_comma",
+            "no_unprintable"
+        ],
+        "special_case": "Individual for natural persons"
+    },
+    "City": {
+        "type": "string",
+        "constraints": [
+            "free_text"
+        ]
+    },
+    "Country": {
+        "type": "string",
+        "constraints": [
+            "length_2",
+            "uppercase",
+            "valid_iso_3166_1_alpha_2",
+            "no_null"
+        ]
+    },
+    "Zip Code": {
+        "type": "string",
+        "constraints": [
+            "us_zip_5_digits",
+            "allow_leading_zeroes",
+            "foreign_postal_code_allowed"
+        ]
+    },
+    "IndustryCode": {
+        "type": "string",
+        "constraints": [
+            "numeric",
+            "length_4_to_6",
+            "allow_sic_gics_if_naics_unavailable"
+        ]
+    },
+    "StockExchange": {
+        "type": "string",
+        "constraints": [
+            "valid_stock_exchange"
+        ],
+        "description": "Report the stock exchange where the company is listed."
+    },
+    "TKR": {
+        "type": "string",
+        "constraints": [
+            "free_text"
+        ],
+        "description": "Report the Stock Symbol for stocks listed and traded on the regulated exchange. If not publicly traded, enter 'NA'."
+    },
+	"CUSIP": {
+  "type": "string",
+  "constraints": ["valid_6_digit_number", "or_NA"]
+},
+	
+  "MaturityDate": {
+    "type": "string",
+    "constraints": ["yyyy-mm-dd_format"]
+	},
+	"IndustryCodeType": {
+  "type": "string",
+  "constraints": ["must_be_one_of", ["NAICS", "SIC", "GICS"]]
+	}
+
+
+}
